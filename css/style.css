@@ -1,0 +1,88 @@
+
+/*CSS RESET!!!!! */
+*
+{
+    margin:0;
+    padding:0;
+}
+
+/*General Styles*/
+body
+{
+    font-family : Helvetica;
+    line-height: 1.7;
+}
+
+
+/*********Header*************/
+
+#header-top
+{
+    background-color: #fffc00;
+}
+
+header  a 
+{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:1.1rem;
+}
+
+header li
+{
+    display:inline-block;
+}
+
+#header-top
+{
+    display: grid;
+    grid-template-columns:120px 1fr;
+}
+
+#header-bottom
+{
+    background-color: white;
+}
+
+#header-top li
+{
+    padding : 16px 24px;
+}
+
+#header-bottom li
+{
+    padding: 28px 24px;
+}
+
+#header-top img
+{
+    margin: 22px 0 0 20px;
+  
+}
+
+
+.selected-link
+{
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
+
+
+
+
+/*********Hero Section*************/
+
+#hero-section
+{
+    height:500px;
+    background-image: url("../img/img-header.jpg");
+    background-position:center center;
+    background-size: cover;
+}
+
+
+
+
+/*********Who We Are Section*************/
+
